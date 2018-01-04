@@ -65,7 +65,7 @@ class NgTheme  {
 
   public function register_src_assets(){
      if( ! isset( $this->template_url ) ) $this->template_url = get_template_directory_uri();
-     $src_dir = new DirectoryIterator( get_stylesheet_directory() . '/src' );
+     $src_dir = new \DirectoryIterator( get_stylesheet_directory() . '/src' );
      foreach( $src_dir as $file){
          $full_name = basename( $file );
          $url = $this->template_url . '/src/' . $full_name;
