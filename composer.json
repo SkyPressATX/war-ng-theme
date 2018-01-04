@@ -16,6 +16,5 @@
         "psr-4": {
             "WAR\\": "src/"
         }
-    },
-    "minimum-stability": "alpha"
+    }
 }
