@@ -1,0 +1,20 @@
+{
+    "name": "skypress/war-ng-theme",
+    "description": "Library to help build Angular based WordPress theme.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Moore",
+            "email": "bmo@skypress.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "WAR\\": "src/"
+        }
+    }
+}
